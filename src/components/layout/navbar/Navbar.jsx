@@ -7,6 +7,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { CartWidget } from "../../common/CartWidget";
 import styles from "./NavBar.module.css";
+import { UserWidget } from "../../common/UserWidget";
+import SearchIcon from "@mui/icons-material/Search";
 
 export function NavBar() {
   return (
@@ -24,14 +26,22 @@ export function NavBar() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
-              className="me-2"
+              placeholder="Buscar"
+              className={styles.searchBar}
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-secondary">
+              <SearchIcon />
+            </Button>
           </Form>
-          <CartWidget />
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />
+          <div className="d-flex">
+            <CartWidget />
+            <UserWidget />
+          </div>
+          <Navbar.Toggle
+            className={styles.btnHam}
+            aria-controls={`offcanvasNavbar-expand-${false}`}
+          />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${false}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${false}`}

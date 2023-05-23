@@ -1,0 +1,31 @@
+.cartIcon {
+  position: relative;
+  display: inline-block;
+  border-right: 1px solid #9b9b9b;
+  padding-right: 15px;
+}
+
+.nameSection {
+  font-family: "LexendDeca";
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.nameSection:hover {
+  cursor: pointer;
+}
+
+.itemsNumber {
+  position: absolute;
+  bottom: -5px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 14px;
+}

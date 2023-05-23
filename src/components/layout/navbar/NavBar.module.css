@@ -7,3 +7,13 @@
   margin: 1rem;
   border-radius: 10px;
 }
+
+.searchBar {
+  margin-right: 10px;
+  height: 40px;
+  border-color: #6c757d;
+}
+
+.btnHam{
+  border-color: #6c757d;
+}

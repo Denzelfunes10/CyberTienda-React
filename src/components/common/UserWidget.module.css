@@ -1,0 +1,15 @@
+.UserIcon {
+  border-left: 1px solid #9b9b9b;
+  padding-left: 10px;
+}
+
+.nameSection {
+  font-family: "LexendDeca";
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.nameSection:hover {
+  cursor: pointer;
+}
