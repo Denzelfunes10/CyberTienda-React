@@ -1,3 +1,30 @@
-*{
-    background-color: #242424;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ProCrastinatingPixie";
+  src: url(./assets/font/ProCrastinatingPixie.ttf);
+}
+
+@font-face {
+  font-family: "Oswald-Light";
+  src: url(./assets/font/Oswald-Light.ttf);
+}
+
+@font-face {
+  font-family: "Oswald-SemiBold";
+  src: url(./assets/font/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "lexendDeca";
+  src: url(./assets/font/LexendDeca-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "lexendExa";
+  src: url(./assets/font/LexendExa-Regular.ttf);
 }
