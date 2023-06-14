@@ -1,0 +1,67 @@
+footer{
+    display: flex;
+    background-image: url(https://res.cloudinary.com/dkuk6pjpz/image/upload/v1686769385/CyberTienda/darkTrianglesHorizontal_fk3nb9.png);
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+}
+.footerSection{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 250px;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "horario direccion redes"
+}
+.footerSection h3{
+    grid-area: titulo;
+    font-family: "ProCrastinatingPixie";
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    border-bottom: 5px solid #ddd;
+    margin-inline: 30px;
+    padding: 20px;
+}
+.footerSection div p{
+    font-family: "LexendExa";
+    font-size: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.horario{
+    grid-area: horario;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.direccion{
+    grid-area: direccion;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.redes{
+    grid-area: redes;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.redes img{
+    width: 200px;
+}

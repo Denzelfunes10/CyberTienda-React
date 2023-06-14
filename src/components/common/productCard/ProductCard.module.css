@@ -1,0 +1,62 @@
+.container {
+  display: grid;
+  transition: transform 0.3s ease-out;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 2px #aeaeae;
+  padding: 15px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-areas:
+    "t-img"
+    "t-description";
+}
+.imgContainer {
+  grid-area: t-img;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer img {
+  width: auto;
+  max-width: 150px;
+  height: 100px;
+  border-radius: 10px;
+}
+.divDescription {
+  grid-area: t-description;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.divDescription figcaption {
+  font-family: "LexendExa";
+  font-size: 1rem;
+  color: #000;
+  text-align: left;
+  padding-left: 5px;
+  align-self: flex-start;
+}
+.divDescription p {
+  font-family: "LexendExa";
+  font-size: 1rem;
+  color: #777;
+  text-align: left;
+  padding-left: 5px;
+  align-self: flex-start;
+}
+.btnAdd {
+  font-family: "LexendDeca";
+  font-size: 1rem;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: darkblue;
+  background-color: darkblue;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}

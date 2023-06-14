@@ -1,0 +1,78 @@
+.containerSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rute {
+  margin: 20px 0 20px 40px;
+  display: flex;
+  align-self: flex-start;
+}
+.rute div{
+  display: flex;
+  color: #000;
+}
+a{
+  text-decoration: none;
+}
+.rute img{
+  height: 40px;
+}
+.rute span{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-family: "LexendDeca";
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 2px #aeaeae;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.containerBtn {
+  width: 500px;
+  height: 60px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 2px #aeaeae;
+  padding: 10px;
+}
+.container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.container img {
+  width: 300px;
+  border-radius: 10px;
+  height: auto;
+  margin: 10px;
+}
+.container span{
+  font-family: "LexendExa";
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #666;
+  margin: 10px;
+}
+
+.container p {
+  font-family: "LexendExa";
+  font-size: 1rem;
+  text-align: justify;
+  color: #666;
+  margin: 10px;
+}

@@ -1,0 +1,58 @@
+.carrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carritoHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.carritoHeader img {
+  width: 150px;
+  height: fit-content;
+}
+.carritoHeader h2 {
+  padding: 20px;
+  font-family: "LexendDeca";
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+}
+.carritoHeader p {
+  font-family: "LexendExa";
+  font-size: 20px;
+  color: #5d5d5d;
+  text-align: center;
+}
+.emptycart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 50%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.emptycart h3 {
+  font-family: "LexendDeca";
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  padding-top: 30px;
+}
+.emptycart img {
+  height: 200px;
+}
+.emptycart a {
+  font-family: "LexendDeca";
+  font-size: 30px;
+  color: #c80000;
+  text-align: center;
+  padding-bottom: 30px;
+  text-decoration: none;
+}

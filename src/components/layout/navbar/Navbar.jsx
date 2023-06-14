@@ -1,18 +1,25 @@
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import { CartWidget } from "../../common/CartWidget";
-import styles from "./NavBar.module.css";
-import { UserWidget } from "../../common/UserWidget";
+// ------------- BOOTSTRAP -------------
+import {
+  Button,
+  Container,
+  Form,
+  Nav,
+  Navbar,
+  Offcanvas,
+} from "react-bootstrap";
+// ------------- Material UI -------------
 import SearchIcon from "@mui/icons-material/Search";
+// ------------- COMMON -------------
+import { CartWidget } from "../../common/cartWidget/CartWidget";
+import { UserWidget } from "../../common/userWidget/UserWidget";
+// ------------- OTROS -------------
+// import { productos } from "../../../productosMock"
+import { Link } from "react-router-dom";
+import styles from "./NavBar.module.css";
 
 export function NavBar() {
   return (
-    <>
+    <header>
       <Navbar
         key={false}
         bg="light"
@@ -20,9 +27,9 @@ export function NavBar() {
         className={styles.navbarContainer}
       >
         <Container fluid>
-          <Navbar.Brand className={styles.navBarTitle} href="#">
+          <Link to="/" className={styles.navBarTitle}>
             LA CYBER TIENDA
-          </Navbar.Brand>
+          </Link>
           <Form className="d-flex">
             <Form.Control
               type="search"
@@ -35,8 +42,12 @@ export function NavBar() {
             </Button>
           </Form>
           <div className="d-flex">
-            <CartWidget />
-            <UserWidget />
+            <Link to="/MiCarrito" className={styles.LinkDecor}>
+              <CartWidget />
+            </Link>
+            <Link to="/Login" className={styles.LinkDecor}>
+              <UserWidget />
+            </Link>
           </div>
           <Navbar.Toggle
             className={styles.btnHam}
@@ -48,27 +59,54 @@ export function NavBar() {
             placement="end"
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`}>
-                CATEGORIAS
+              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${false}`} >
+                <p className={styles.navTitle}>CATEGORIAS</p>
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Servicio Técnico</Nav.Link>
-                <Nav.Link href="#action2">Clases</Nav.Link>
-                <NavDropdown
-                  title="Nuestros Productos"
-                  id={`offcanvasNavbarDropdown-expand-${false}`}
+              <Nav className={styles.navBarItems}>
+                <Link to="Categorias/Laptops" className={styles.LinkDecor}>
+                  <Nav.Item>Laptops</Nav.Item>
+                </Link>
+
+                <Link
+                  to="Categorias/PC de escritorio"
+                  className={styles.LinkDecor}
                 >
-                  <NavDropdown.Item href="#action3">Hardware</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">Software</NavDropdown.Item>
-                  <NavDropdown.Item href="#action5">Gaming</NavDropdown.Item>
-                </NavDropdown>
+                  <Nav.Item>PC de escritorio</Nav.Item>
+                </Link>
+
+                <Link
+                  to="Categorias/Almacenamiento"
+                  className={styles.LinkDecor}
+                >
+                  <Nav.Item>Almacenamiento</Nav.Item>
+                </Link>
+
+                <Link to="Categorias/RAM" className={styles.LinkDecor}>
+                  <Nav.Item>RAM</Nav.Item>
+                </Link>
+
+                <Link to="Categorias/Teclados" className={styles.LinkDecor}>
+                  <Nav.Item>Teclados</Nav.Item>
+                </Link>
+
+                <Link to="Categorias/Mouses" className={styles.LinkDecor}>
+                  <Nav.Item>Mouses</Nav.Item>
+                </Link>
+
+                <Link to="Categorias/Bocinas" className={styles.LinkDecor}>
+                  <Nav.Item>Bocinas</Nav.Item>
+                </Link>
+
+                <Link to="Categorias/Audifonos" className={styles.LinkDecor}>
+                  <Nav.Item>Audifonos</Nav.Item>
+                </Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </>
+    </header>
   );
 }

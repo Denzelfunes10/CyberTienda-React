@@ -1,0 +1,31 @@
+.productsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.rute {
+    margin: 20px 0 20px 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.rute img{
+    height: 40px;
+}
+.rute span{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-family: "LexendDeca";
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
