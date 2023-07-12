@@ -1,9 +1,15 @@
-// import styles from "./ItemListContainer.module.css";
-
 import { useEffect, useState } from "react";
-import { productos } from "../../../productosMock";
+import { dataBase } from "../../../firebaseConfig";
+import { collection, getDocs, query, where } from "firebase/firestore";
 import { ProductList } from "./ProductList";
 import { useParams } from "react-router-dom";
+import { GridLoader } from "react-spinners";
+
+const loaderObject = {
+  display: "block",
+  margin: " 300px auto",
+  borderColor: "red",
+};
 
 const ProductListContainer = () => {
   const [products, setProducts] = useState([]);
@@ -11,19 +17,36 @@ const ProductListContainer = () => {
   const { categoryName } = useParams();
 
   useEffect(() => {
-    let productosFiltrados = productos.filter(
-      (producto) => producto.category === categoryName
-    );
+    let productsCollection = collection(dataBase, "productos");
+    let list;
+    if (!categoryName) {
+      list = productsCollection;
+    } else {
+      list = query(productsCollection, where("category", "==", categoryName));
+    }
 
-    const tarea = new Promise((resolve) => {
-      resolve(categoryName ? productosFiltrados : productos);
-    });
-    tarea.then((res) => setProducts(res));
-    tarea.catch((error) => { console.log("catch: ", error);
-    });
+    getDocs(list)
+      .then((res) => {
+        let products = res.docs.map((elemento) => {
+          return {
+            ...elemento.data(),
+            id: elemento.id,
+          };
+        });
+        setProducts(products);
+      })
+      .catch((err) => console.log(err));
   }, [categoryName]);
 
-  return <ProductList productos={products} categoria={categoryName}/>;
+  return (
+    <div>
+      {products.length > 0 ? (
+        <ProductList productos={products} categoria={categoryName} />
+      ) : (
+        <GridLoader size={25} cssOverride={loaderObject} color="#00008b" />
+      )}
+    </div>
+  );
 };
 
 export default ProductListContainer;

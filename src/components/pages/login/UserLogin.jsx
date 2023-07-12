@@ -11,7 +11,7 @@ import {
   TextField,
 } from "@mui/material";
 import { useState } from "react";
-import styles from "./UserLogin.module.css"
+import styles from "./UserLogin.module.css";
 
 export const UserLogin = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -66,7 +66,7 @@ export const UserLogin = () => {
             label="Contraseña"
           />
         </FormControl>
-        <Button variant="contained" color="secondary">
+        <Button variant="contained" color="secondary" type="submit">
           Ingresar
         </Button>
       </Box>

@@ -1,6 +1,5 @@
 export const productos = [
   {
-    id: 1,
     category: "Laptops",
     name: "LAPTOP ACER NITRO 5",
     price: 799.0,
@@ -10,7 +9,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 2,
     category: "Laptops",
     name: "LAPTOP ASUS PROART",
     price: 699.0,
@@ -20,7 +18,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 3,
     category: "Laptops",
     name: "LAPTOP DELL",
     price: 450.0,
@@ -30,7 +27,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 4,
     category: "Laptops",
     name: "LAPTOP HUAWEI",
     price: 550.0,
@@ -40,7 +36,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 5,
     category: "Laptops",
     name: "MACBOOK PRO",
     price: 899.0,
@@ -51,7 +46,6 @@ export const productos = [
   },
 
   {
-    id: 6,
     category: "PC de escritorio",
     name: "PC I5 8GB RAM 1TB SSD",
     price: 500.0,
@@ -61,7 +55,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 7,
     category: "PC de escritorio",
     name: "PC I7 12GB RAM 500 SSD",
     price: 999.0,
@@ -71,7 +64,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 8,
     category: "PC de escritorio",
     name: "PC I9 32GB RAM 500 SSD",
     price: 1199.0,
@@ -81,7 +73,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 9,
     category: "PC de escritorio",
     name: "PC I3 8GB RAM 1TB SSD",
     price: 500.0,
@@ -91,7 +82,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 10,
     category: "PC de escritorio",
     name: "PC I5 16GB RAM 500GB SSD",
     price: 550.0,
@@ -102,7 +92,6 @@ export const productos = [
   },
 
   {
-    id: 11,
     category: "Almacenamiento",
     name: "SSD KINGSTON 480GB",
     price: 50.0,
@@ -112,7 +101,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 12,
     category: "Almacenamiento",
     name: "SSD M.2 480GB",
     price: 60.0,
@@ -122,7 +110,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 13,
     category: "Almacenamiento",
     name: "HDD 1TB",
     price: 40.0,
@@ -132,7 +119,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 14,
     category: "Almacenamiento",
     name: "SSD WD BLUE 500GB",
     price: 45.0,
@@ -142,7 +128,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 15,
     category: "Almacenamiento",
     name: "SSD SAMSUNG 1TB",
     price: 120.0,
@@ -153,7 +138,6 @@ export const productos = [
   },
 
   {
-    id: 16,
     category: "RAM",
     name: "RAM FURY 4GB DIMM",
     price: 20.0,
@@ -163,7 +147,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 17,
     category: "RAM",
     name: "RAM 4GB SODIMM",
     price: 25.0,
@@ -173,7 +156,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 18,
     category: "RAM",
     name: "RAM FURY 16GB SODIMM",
     price: 45.0,
@@ -183,7 +165,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 19,
     category: "RAM",
     name: "RAM CRUCIAL 16GB SODIMM",
     price: 60.0,
@@ -193,7 +174,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 20,
     category: "RAM",
     name: "RAM 32GB DIMM",
     price: 110.0,
@@ -204,7 +184,6 @@ export const productos = [
   },
 
   {
-    id: 21,
     category: "Teclados",
     name: "TECLADO RGB",
     price: 40.0,
@@ -214,7 +193,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 22,
     category: "Teclados",
     name: "TECLADO INALAMBRICO",
     price: 60.0,
@@ -224,7 +202,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 23,
     category: "Teclados",
     name: "TECLADO GAMER",
     price: 100.0,
@@ -234,7 +211,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 24,
     category: "Teclados",
     name: "TECLADO GAMER XL",
     price: 150.0,
@@ -244,7 +220,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 25,
     category: "Teclados",
     name: "TECLADO Apple",
     price: 270.0,
@@ -255,7 +230,6 @@ export const productos = [
   },
 
   {
-    id: 26,
     category: "Mouses",
     name: "MOUSE CORSAIR",
     price: 45.0,
@@ -265,7 +239,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 27,
     category: "Mouses",
     name: "MOUSE ALIENWARE",
     price: 60.0,
@@ -275,7 +248,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 28,
     category: "Mouses",
     name: "MOUSE TT",
     price: 40.0,
@@ -285,7 +257,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 29,
     category: "Mouses",
     name: "MOUSE APPLE",
     price: 80.0,
@@ -295,7 +266,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 30,
     category: "Mouses",
     name: "MOUSE LOGITECH",
     price: 60.0,
@@ -304,9 +274,7 @@ export const productos = [
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
-
   {
-    id: 31,
     category: "Bocinas",
     name: "BOCINAS DE COMPUTADORA",
     price: 30.0,
@@ -316,7 +284,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 32,
     category: "Bocinas",
     name: "BOCINA SONY",
     price: 60.0,
@@ -326,7 +293,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 33,
     category: "Bocinas",
     name: "BOCINA JBL",
     price: 55.0,
@@ -336,7 +302,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 34,
     category: "Bocinas",
     name: "BOCINA JBL CHARGE 4",
     price: 75.0,
@@ -346,7 +311,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 35,
     category: "Bocinas",
     name: "BOCINAS RGB",
     price: 40.0,
@@ -357,7 +321,6 @@ export const productos = [
   },
 
   {
-    id: 36,
     category: "Audifonos",
     name: "AUDIFONOS STEREN",
     price: 40.0,
@@ -367,7 +330,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 37,
     category: "Audifonos",
     name: "AUDIFONOS PHYTONFLY",
     price: 50.0,
@@ -377,7 +339,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 38,
     category: "Audifonos",
     name: "AUDIFONOS SKULLCANDY",
     price: 60.0,
@@ -387,7 +348,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 39,
     category: "Audifonos",
     name: "AUDIFONOS HYPERX",
     price: 80.0,
@@ -397,7 +357,6 @@ export const productos = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quasi officiis sunt fugit odio accusamus at aperiam perspiciatis vitae. Unde praesentium molestias quae in rerum, quod deserunt repellendus quaerat nobis",
   },
   {
-    id: 40,
     category: "Audifonos",
     name: "AUDIFONOS G733",
     price: 75.0,

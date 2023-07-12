@@ -2,14 +2,7 @@ import { Link } from "react-router-dom";
 import { ItemCount } from "../../common/itemCount/ItemCount";
 import style from "./ProductDetail.module.css";
 
-const ProductDetail = ({ productSelected }) => {
-  const onAdd = (cantidad) => {
-    let data = {
-      ...productSelected,
-      quantity: cantidad,
-    };
-    console.log(data);
-  };
+const ProductDetail = ({ productSelected, onAdd, cantidad,  }) => {
 
   return (
     <main className={style.containerSection}>
@@ -32,7 +25,11 @@ const ProductDetail = ({ productSelected }) => {
       </div>
       <div className={style.containerBtn}>
         {productSelected.stock > 0 ? (
-          <ItemCount stock={productSelected.stock} initial={1} onAdd={onAdd} />
+          <ItemCount
+            stock={productSelected.stock}
+            initial={cantidad}
+            onAdd={onAdd}
+          />
         ) : (
           <h3>No hay stock</h3>
         )}

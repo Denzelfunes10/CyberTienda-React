@@ -1,0 +1,78 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.rute {
+  margin: 20px 0 20px 40px;
+  display: flex;
+  align-self: flex-start;
+}
+.rute div{
+  display: flex;
+  color: #000;
+}
+a{
+  text-decoration: none;
+}
+.rute img{
+  height: 40px;
+}
+.rute span{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-family: "LexendDeca";
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.comprobante{
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "lexendDeca";
+  width: 50%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.inputField {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.submitButton {
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.submitButton:hover {
+  background-color: rgb(0, 0, 183);
+}
+
+.error {
+  font-family: "lexendExa";
+  font-size: 1rem;
+  align-self: flex-start;
+  color: red;
+}
+.errorField {
+  border: solid 1px;
+}

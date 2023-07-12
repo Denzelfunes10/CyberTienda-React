@@ -16,15 +16,16 @@
     "@fontsource/roboto": "^5.0.3",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.5",
-    "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "firebase": "^10.0.0",
     "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.12.1",
-    "sweetalert2": "^11.7.5"
+    "react-spinners": "^0.13.8",
+    "sweetalert2": "^11.7.12"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
